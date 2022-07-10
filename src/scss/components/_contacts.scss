@@ -1,0 +1,53 @@
+.contacts {
+  background-image: url("../img/contacts-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: 75.3% 39.2%;
+  @include tablet {
+    background-size: 514px 316px;
+    background-position: 92.8% 43.5%;
+  }
+
+  @include small-tablet {
+    background-image: url("../img/contacts-bg-3.png");
+    background-size: 187px 444px;
+    background-position: 87.6% 36.5%;
+  }
+
+  @include mobile {
+    background-image: none;
+  }
+
+  &__container {
+    padding-top: 35px;
+    padding-bottom: 70px;
+  }
+
+  &__title {
+    margin-bottom: 9px;
+
+    @include mobile {
+      max-width: none;
+    }
+  }
+
+  &__btn {
+    @include mobile {
+      width: auto;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--grey-shade);
+  }
+
+  &__label {
+    @include flex;
+    justify-content: flex-start;
+  }
+}

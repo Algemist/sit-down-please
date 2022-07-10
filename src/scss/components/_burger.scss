@@ -1,0 +1,109 @@
+.burger {
+  @include burger;
+  --burger-width: 24px;
+  --burger-height: 24px;
+  --burger-line-height: 3px;
+  display: none;
+  margin-right: auto;
+  @media (max-width: 941px) {
+    display: block;
+  }
+  z-index: 100;
+
+  &::before,
+  &::after {
+    background-color: var(--primary);
+    border-radius: 4px;
+  }
+
+  &-container {
+    position: absolute;
+    width: 100%;
+    min-height: 300px;
+    top: 0;
+    background-color: var(--light-color);
+    background-image: url("../img/burger-bg.svg");
+    background-repeat: no-repeat;
+    background-position: 86% 70%;
+    transition: opacity .3s ease-in-out, transform .5s ease-in-out, display .3s ease-in-out;
+    transform: translateY(-200%);
+    opacity: 0;
+    z-index: 50;
+
+    @media (max-width: 715px) {
+      background-image: none;
+    }
+
+    &__top {
+      padding: 92px 72px 60px 72px;
+      @include mobile {
+        padding: 62px 12px 26px 12px;
+      }
+    }
+
+    &__btm {
+      display: none;
+
+      background-color: var(--grey-light);
+      @media (max-width: 715px) {
+        display: block;
+        padding: 24px 72px 24px 72px;
+      }
+
+      @include mobile {
+        padding: 24px 29px 24px 12px;
+      }
+    }
+
+
+    &__list {
+      display: grid;
+      grid-template-columns: 80px 144px;
+      column-gap: 83px;
+      row-gap: 41px;
+
+      @include mobile {
+        display: flex;
+        flex-direction: column;
+      }
+
+      &-mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 12px;
+      }
+    }
+
+    &__item {
+      &_mobile {
+        max-width: 134px;
+      }
+    }
+
+    &__link {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: var(--black);
+
+      &_mobile {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        color: var(--grey);
+      }
+    }
+  }
+
+  &__line {
+    background-color: var(--primary);
+    border-radius: 4px;
+  }
+
+}
+
+.menu--active {
+  display: block;
+  transform: none;
+  opacity: 1;
+}

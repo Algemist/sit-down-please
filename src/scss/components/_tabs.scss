@@ -1,0 +1,102 @@
+.tabs {
+  @include flex;
+  flex-direction: column;
+
+  &__panel--active {
+    display: grid;
+    grid-template-columns: repeat(3, 296px);
+    gap: 32px;
+
+    @media (max-width: 1320px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 1013px) {
+      gap: 12px;
+    }
+
+    @media (max-width: 973px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include small-tablet {
+      gap: 32px;
+    }
+
+    @include mobile {
+      gap: 16px;
+    }
+  }
+
+  &__panel--active.product__tabs-panel {
+    display: block;
+    height: 245px;
+
+    @include mobile {
+      height: 116px;
+    }
+  }
+
+  &__nav {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    transform: translateX(8px);
+
+    @include small-tablet {
+      transform: none
+    }
+    &-item {
+      @include mr(16px);
+
+      &_mobile {
+        display: none;
+        @media (max-width: 973px) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &__content {
+    margin-bottom: 32px;
+  }
+
+  &__img {
+    object-fit: none;
+
+    @include mobile {
+      width: 296px;
+      height: 116px;
+    }
+
+    &_third {
+      height: 245px;
+      @include mobile {
+        height: 116px;
+      }
+    }
+  }
+
+  &__nav-btn {
+    &--active {
+      color: var(--light-color);
+      border: 2px solid var(--primary-shade);
+      background-color: var(--primary-shade);
+
+      &:hover:not(:focus-visible),
+      &:active:not(:focus-visible),
+      &:focus-visible {
+        color: var(--light-color);
+        border: 2px solid var(--primary-shade);
+        background-color: var(--primary-shade);
+      }
+    }
+  }
+}
+
+.tabs__nav-btn:focus {
+  color: var(--light-color);
+  border: 2px solid var(--primary-shade);
+  background-color: var(--primary-shade);
+}

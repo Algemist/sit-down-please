@@ -1,0 +1,38 @@
+.article {
+  &__container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  &__heading {
+    @include flex-all-sb;
+    margin-bottom: 26px;
+  }
+
+  &__card {
+    padding: 0;
+    max-width: 624px;
+    height: unset;
+    justify-content: flex-start;
+    @include tablet {
+      max-width: 296px;
+    }
+
+    @media (max-width: 950px) {
+      max-width: none;
+    }
+  }
+  &__btn {
+    padding: 18px 33px;
+    @include tablet {
+      padding: 17px 33px;
+    }
+  }
+
+  &__link {
+    @include tablet {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}

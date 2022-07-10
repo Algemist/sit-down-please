@@ -1,0 +1,236 @@
+.graph-modal {
+  background-color: rgba(33, 33, 33, .3);
+    &__container {
+    width: 624px;
+    padding: 30px;
+    border-radius: 10px;
+
+    @include mobile {
+      width: 296px;
+      padding: 30px 16px;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    @include mobile {
+      top: 16px;
+      right: 16px;
+      width: 12px;
+      height: 12px;
+    }
+
+    &-icon {
+      width: 20px;
+      height: 20px;
+      fill: var(--grey);
+
+      @include mobile {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}
+
+.modal {
+  &__title {
+    margin-bottom: 8px;
+
+    @include mobile {
+      white-space: nowrap;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 100%;
+    }
+  }
+
+  &-swiper__slide {
+    @include flex-all-center;
+    height: 418px;
+
+    @media (max-width: 1315px) {
+      width: 821px;
+      height: 322px;
+    }
+
+    @media (max-width: 650px) {
+      width: 264px;
+      height: 120px;
+    }
+  }
+
+  &__btn {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 30px;
+    padding-left: 31px;
+    margin-bottom: 12px;
+    font-weight: 600;
+
+    @include mobile {
+      max-width: 159px;
+    }
+  }
+
+  &__descr {
+    max-width: 374px;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--black);
+
+    @include mobile {
+      max-width: 260px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__label {
+    @include flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 30px;
+
+    @include mobile {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__input {
+    padding: 16px;
+  }
+
+  &__checkbox {
+    padding-left: 18px;
+    &-link {
+      padding-left: 0;
+    }
+
+    @include mobile {
+      font-size: 12px;
+      white-space: nowrap;
+      .custom-checkbox__icon::before {
+        top: 2px;
+        left: -19px;
+      }
+    }
+  }
+}
+
+.congrats-modal {
+  padding: 118px 75px;
+
+  @include mobile {
+    padding: 60px 51px;
+  }
+  &__content {
+    @include flex-all-center;
+    flex-direction: column;
+  }
+
+  &__title {
+    @include mobile {
+      max-width: 194px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+    }
+  }
+
+  &__img {
+    position: relative;
+    left: -24px;
+    margin-bottom: 32px;
+
+    @include mobile {
+      width: 73px;
+      height: 50px;
+    }
+  }
+}
+
+.detail {
+  position: relative;
+  width: 1280px;
+  padding: 50px 0 0 0;
+
+  @media (max-width: 1315px) {
+    width: 952px;
+  }
+
+  @media (max-width: 983px) {
+    width: 624px;
+  }
+
+  @media (max-width: 650px) {
+    width: 296px;
+  }
+
+  &__top {
+    padding-left: 108px;
+    padding-right: 108px;
+    margin-bottom: 50px;
+
+    @media (max-width: 650px) {
+      padding-top: 32px;
+      padding-left: 16px;
+      padding-right: 16px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &__btm {
+    position: relative;
+    padding: 20px 51px;
+    background-color: var(--grey-light);
+    border-radius: 0 0 10px 10px;
+
+    @media (max-width: 650px) {
+      padding: 16px 62px;
+    }
+  }
+
+  &__swiper {
+    @media (max-width: 1315px) {
+      width: 819px;
+    }
+
+    @media (max-width: 983px) {
+      padding-left: 45px;
+    }
+
+    @media (max-width: 650px) {
+      padding-left: 0;
+    }
+  }
+
+  &__btn {
+    display: none;
+    position: absolute;
+    top: 67px;
+
+    @include tablet {
+      display: block;
+    }
+
+    &-next {
+      right: 16px;
+    }
+
+    &-prev {
+      left: 16px;
+    }
+  }
+}
+
+.congrats {
+  padding-top: 118px;
+  padding-bottom: 122px;
+}

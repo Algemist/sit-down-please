@@ -1,0 +1,42 @@
+.breadcrumb {
+  display: flex;
+  margin-bottom: 32px;
+  @include mobile {
+    display: none;
+  }
+
+  &__link {
+    position: relative;
+    color: var(--grey);
+    transition: color 0.3s ease-in-out;
+  }
+
+  &__link:hover:not(:focus-visible) {
+    color: var(--primary);
+  }
+
+  &__link:active:not(:focus-visible) {
+    color: var(--primary-shade);
+  }
+
+  &__item {
+    display: inline;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--primary-shade);
+  }
+
+  &__item + &__item::before {
+    position: relative;
+    left: 6px;
+    padding-right: 2px;
+    color: var(--gray);
+    content: "/\00a0";
+  }
+
+  &__item:last-child {
+    &::before {
+      padding-right: 6px;
+    }
+  }
+}

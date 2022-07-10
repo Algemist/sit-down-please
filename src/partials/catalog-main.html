@@ -1,0 +1,1329 @@
+<section class="catalog">
+  <div class="container catalog__container">
+    <h1 class="visually-hidden">Sit Down Please</h1>
+    <ul class="breadcrumb list-reset">
+      <li class="breadcrumb__item">
+        <a class="breadcrumb__link bg-focus" href="/">Главная</a>
+      </li>
+      <li class="breadcrumb__item">
+        <a class="breadcrumb__link bg-focus" href="/">Каталог</a>
+      </li>
+      <li class="breadcrumb__item">
+        <a class="breadcrumb__link bg-focus" href="/">Диваны</a>
+      </li>
+      <li class="breadcrumb__item">Прямые диваны</li>
+    </ul>
+    <aside class="aside">
+      <h2 class="aside__title">Фильтровать по:</h2>
+      <h3 class="aside__heading aside__categories">Категория</h3>
+      <div class="aside__content">
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="sofas"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Диваны
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="armchairs"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Кресла
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="poufs"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Пуфы
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="beds"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Кровати
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="cabinets"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Тумбы
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="dressers"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Комоды
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="chairs"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Стулья
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="tables"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Столы
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_categories" value="accessories">
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Аксессуары
+        </label>
+      </div>
+      <h3 class="aside__heading aside__price">Цена</h3>
+      <div class="aside__content custom-range">
+        <label class="custom-range__label"
+          ><span class="custom-range__value">от</span
+          ><input
+            type="number"
+            class="input-reset custom-range__digit range-before"
+            id="range-input-1"
+            min="1000"
+            max="999999"
+            placeholder="2000"
+        /></label>
+        <label class="custom-range__label"
+          ><span class="custom-range__value">до</span
+          ><input
+            type="number"
+            class="input-reset custom-range__digit range-after"
+            id="range-input-2"
+            min="1000"
+            max="999999"
+            placeholder="150 000"
+        /></label>
+        <div class="custom-range__line" id="range-slider"></div>
+      </div>
+      <h3 class="aside__heading aside__discount">Скидка</h3>
+      <div class="aside__content aside__content-discount">
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_discount" value="overprice"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Более 5 000
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_discount" value="lessprice"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Менее 5 000
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_discount" value="noprice"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Не важно
+        </label>
+      </div>
+      <h3 class="aside__heading aside__color">Цвет</h3>
+      <div class="aside__content aside__content-color">
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="brown"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Коричневый
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="black"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Черный
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="beige"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Бежевый
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="gray"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Серый
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="white"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Белый
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="blue"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Синий
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="orange"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Оранжевый
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="yellow"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Желтый
+        </label>
+        <label class="aside__label custom-checkbox">
+          <input type="checkbox" class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color" value="green"/>
+          <span class="custom-checkbox__icon aside__checkbox"></span>
+          Зеленый
+        </label>
+      </div>
+      <div class="aside__promo promo">
+        <picture class="promo__pic">
+          <source srcset="img/catalog-banner.avif" type="image/avif" />
+          <source srcset="img/catalog-banner.webp" type="image/webp" />
+          <img
+            loading="lazy"
+            src="img/catalog-banner.png"
+            class="image"
+            width="296"
+            height="190"
+            alt="Оксфорд 1950 Новая коллекция изысканных кресел"
+          />
+        </picture>
+        <div class="promo__content">
+          <h3 class="promo__title">
+            Оксфорд 1950 Новая коллекция изысканных кресел
+          </h3>
+          <a href="#" class="promo__catalog-link catalog-link">
+            <span class="catalog-link__value">В каталог</span>
+            <svg class="catalog-link__icon icon-btn">
+              <use xlink:href="img/sprite.svg#btn-arrow"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+    <div class="catalog__main-container">
+      <div class="catalog-heading">
+        <div class="catalog-heading__container catalog-heading__container_top">
+          <h2 class="title catalog__title">Каталог</h2>
+          <div class="catalog-heading__tags" id="catalog-tags">
+          </div>
+        </div>
+        <div class="catalog-heading__container catalog-heading__container_btm">
+          <h2 class="catalog-heading__filter">Фильтры:</h2>
+          <div class="catalog-heading__dropdowns dropdown">
+            <ul class="list-reset dropdown__list">
+              <li class="dropdown__item">
+                <button class="btn-reset dropdown__btn dropdown-btn">
+                  <span class="dropdown-btn__value">Категория</span>
+                  <svg class="dropdown-btn__icon select-icon">
+                    <use xlink:href="img/sprite.svg#select-stroke"></use>
+                  </svg>
+                </button>
+                <div class="dropdown__container">
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="sofas"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Диваны
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="armchairs"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Кресла
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="poufs"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Пуфы
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="beds"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Кровати
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="cabinets"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Тумбы
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="dressers"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Комоды
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="chairs"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Стулья
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="tablets"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Столы
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="accessories"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Аксессуары
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="sofas"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Диваны
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="armchairs"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Кресла
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="poufs"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Пуфы
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="beds"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Кровати
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="cabinets"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Тумбы
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="dressers"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Комоды
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="chairs"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Стулья
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="tablets"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Столы
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="accessories"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Аксессуары
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="tablets"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Столы
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="accessories"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Аксессуары
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox"
+                      value="accessories"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Аксессуары
+                  </label>
+                </div>
+              </li>
+              <li class="dropdown__item">
+                <button class="btn-reset dropdown__btn dropdown-btn">
+                  <span class="dropdown-btn__value">Цена</span>
+                  <svg class="dropdown-btn__icon select-icon">
+                    <use xlink:href="img/sprite.svg#select-stroke"></use>
+                  </svg>
+                </button>
+                <div class="dropdown__container">
+                  <div class="dropdown__content custom-range">
+                    <label class="custom-range__label"
+                      ><span class="custom-range__value">от</span
+                      ><input
+                        type="number"
+                        class="input-reset custom-range__digit range-before"
+                        min="1000"
+                        max="999999"
+                        placeholder="2000"
+                    /></label>
+                    <label class="custom-range__label"
+                      ><span class="custom-range__value">до</span
+                      ><input
+                        type="number"
+                        class="input-reset custom-range__digit range-after"
+                        min="1000"
+                        max="999999"
+                        placeholder="150 000"
+                    /></label>
+                  </div>
+                </div>
+              </li>
+              <li class="dropdown__item">
+                <button class="btn-reset dropdown__btn dropdown-btn">
+                  <span class="dropdown-btn__value">Скидка</span>
+                  <svg class="dropdown-btn__icon select-icon">
+                    <use xlink:href="img/sprite.svg#select-stroke"></use>
+                  </svg>
+                </button>
+                <div class="dropdown__container">
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_discount"
+                      value="overprice"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Более 5 000
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_discount"
+                      value="lessprice"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Менее 5 000
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_discount"
+                      value="noprice"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Не важно
+                  </label>
+                </div>
+              </li>
+              <li class="dropdown__item">
+                <button class="btn-reset dropdown__btn dropdown-btn">
+                  <span class="dropdown-btn__value">Цвет</span>
+                  <svg class="dropdown-btn__icon select-icon">
+                    <use xlink:href="img/sprite.svg#select-stroke"></use>
+                  </svg>
+                </button>
+                <div class="dropdown__container">
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="brown"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Коричневый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="black"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Черный
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="beige"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Бежевый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="gray"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Серый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="white"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Белый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="blue"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Синий
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="orange"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Оранжевый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="yellow"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Желтый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="green"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    Зеленый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="brown"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    розовый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="black"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    фиолетовый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="beige"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    фисташковый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="gray"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    сиреневый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="white"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    голубой
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="blue"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    бордовый
+                  </label>
+                  <label class="dropdown__label custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="input-reset custom-checkbox__input catalog__checkbox catalog__checkbox_color"
+                      value="orange"
+                    />
+                    <span
+                      class="custom-checkbox__icon dropdown__checkbox"
+                    ></span>
+                    персиковый
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="tabs catalog-tabs" data-tabs="tabs">
+        <div class="tabs__content">
+          <div class="tabs__panel">
+            <article class="card catalog__card">
+              <div class="card__rating">5,0</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-1.avif" type="image/avif" />
+                <source srcset="img/rating-1.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-1.png"
+                  class="image"
+                  width="266"
+                  height="82"
+                  alt="Диван кожаный “R-94”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван кожаный “R-94”</a>
+              </h3>
+              <p class="card__price catalog__price">94 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,9</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-2.avif" type="image/avif" />
+                <source srcset="img/rating-2.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-2.png"
+                  class="image"
+                  width="261"
+                  height="101"
+                  alt="Диван апартековый “T-75”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван апартековый “T-75”</a>
+              </h3>
+              <p class="card__price catalog__price">69 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,8</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-3.avif" type="image/avif" />
+                <source srcset="img/rating-3.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-3.png"
+                  class="image"
+                  width="262"
+                  height="103"
+                  alt="Диван тканевый “D-31”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван тканевый “D-31”</a>
+              </h3>
+              <p class="card__price catalog__price">28 490 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,8</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-4.avif" type="image/avif" />
+                <source srcset="img/rating-4.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-4.png"
+                  class="image"
+                  width="257"
+                  height="125"
+                  alt="Диван велюровый “Y-68”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “Y-68”</a>
+              </h3>
+              <p class="card__price catalog__price">22 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,8</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-5.avif" type="image/avif" />
+                <source srcset="img/rating-5.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-5.png"
+                  class="image"
+                  width="265"
+                  height="117"
+                  alt="Диван из шинила “W-95”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из шинила “W-95”</a>
+              </h3>
+              <p class="card__price catalog__price">22 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,8</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-6.avif" type="image/avif" />
+                <source srcset="img/rating-6.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-6.png"
+                  class="image"
+                  width="271"
+                  height="117"
+                  alt="Диван флоковый “G-41”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван флоковый “G-41”</a>
+              </h3>
+              <p class="card__price catalog__price">17 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,8</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-7.avif" type="image/avif" />
+                <source srcset="img/rating-7.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-7.png"
+                  class="image"
+                  width="266"
+                  height="130"
+                  alt="Диван шиниловый “V-43”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван шиниловый “V-43”</a>
+              </h3>
+              <p class="card__price catalog__price">19 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,7</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-8.avif" type="image/avif" />
+                <source srcset="img/rating-8.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-8.png"
+                  class="image"
+                  width="212"
+                  height="124"
+                  alt="Диван велюровый “S-99”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “S-99”</a>
+              </h3>
+              <p class="card__price catalog__price">19 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,7</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-9.avif" type="image/avif" />
+                <source srcset="img/rating-9.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-9.png"
+                  class="image"
+                  width="262"
+                  height="125"
+                  alt="Диван из кожзама “F-85”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из кожзама “F-85”</a>
+              </h3>
+              <p class="card__price catalog__price">26 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+          </div>
+          <div class="tabs__panel">
+            <article class="card catalog__card catalog__card_desktop">
+              <div class="card__rating">4,8</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-7.avif" type="image/avif" />
+                <source srcset="img/rating-7.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-7.png"
+                  class="image"
+                  width="266"
+                  height="130"
+                  alt="Диван шиниловый “V-43”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван шиниловый “V-43”</a>
+              </h3>
+              <p class="card__price catalog__price">19 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_desktop">
+              <div class="card__rating">4,7</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-8.avif" type="image/avif" />
+                <source srcset="img/rating-8.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-8.png"
+                  class="image"
+                  width="212"
+                  height="124"
+                  alt="Диван велюровый “S-99”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “S-99”</a>
+              </h3>
+              <p class="card__price catalog__price">19 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_desktop">
+              <div class="card__rating">4,7</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-9.avif" type="image/avif" />
+                <source srcset="img/rating-9.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-9.png"
+                  class="image"
+                  width="262"
+                  height="125"
+                  alt="Диван из кожзама “F-85”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из кожзама “F-85”</a>
+              </h3>
+              <p class="card__price catalog__price">26 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,6</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-10.avif" type="image/avif" />
+                <source srcset="img/rating-10.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-10.png"
+                  class="image"
+                  width="251"
+                  height="130"
+                  alt="Диван флоковый “H-64”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван флоковый “H-64”</a>
+              </h3>
+              <p class="card__price catalog__price">25 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,6</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-11.avif" type="image/avif" />
+                <source srcset="img/rating-11.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-11.png"
+                  class="image"
+                  width="233"
+                  height="133"
+                  alt="Диван флоковый “H-58”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван флоковый “H-58”</a>
+              </h3>
+              <p class="card__price catalog__price">23 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,6</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-12.avif" type="image/avif" />
+                <source srcset="img/rating-12.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-12.png"
+                  class="image"
+                  width="271"
+                  height="105"
+                  alt="Диван из кожзама “R-43”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из кожзама “R-43”</a>
+              </h3>
+              <p class="card__price catalog__price">33 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,6</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-13.avif" type="image/avif" />
+                <source srcset="img/rating-13.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-13.png"
+                  class="image"
+                  width="229"
+                  height="127"
+                  alt="Диван из шинила “С-42”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из шинила “С-42”</a>
+              </h3>
+              <p class="card__price catalog__price">18 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,6</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-14.avif" type="image/avif" />
+                <source srcset="img/rating-14.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-14.png"
+                  class="image"
+                  width="269"
+                  height="92"
+                  alt="Диван велюровый “U-58”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “U-58”</a>
+              </h3>
+              <p class="card__price catalog__price">21 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-15.avif" type="image/avif" />
+                <source srcset="img/rating-15.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-15.png"
+                  class="image"
+                  width="263"
+                  height="106"
+                  alt="Диван флоковый “F-41”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван флоковый “F-41”</a>
+              </h3>
+              <p class="card__price catalog__price">17 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic catalog__pic_first">
+                <source srcset="img/rating-16.avif" type="image/avif" />
+                <source srcset="img/rating-16.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-16.png"
+                  class="image"
+                  width="251"
+                  height="105"
+                  alt="Диван велюровый “R-85”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “R-85”</a>
+              </h3>
+              <p class="card__price catalog__price">34 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-17.avif" type="image/avif" />
+                <source srcset="img/rating-17.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-17.png"
+                  class="image"
+                  width="272"
+                  height="105"
+                  alt="Диван велюровый “S-44”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “S-44”</a>
+              </h3>
+              <p class="card__price catalog__price">19 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card catalog__card_mobile">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-18.avif" type="image/avif" />
+                <source srcset="img/rating-18.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-18.png"
+                  class="image"
+                  width="227"
+                  height="130"
+                  alt="Диван из шинила “С-80”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из шинила “С-80”</a>
+              </h3>
+              <p class="card__price catalog__price">20 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+          </div>
+          <div class="tabs__panel tabs__panel_mobile">
+            <article class="card catalog__card">
+              <div class="card__rating">4,6</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-13.avif" type="image/avif" />
+                <source srcset="img/rating-13.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-13.png"
+                  class="image"
+                  width="229"
+                  height="127"
+                  alt="Диван из шинила “С-42”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из шинила “С-42”</a>
+              </h3>
+              <p class="card__price catalog__price">18 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,6</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-14.avif" type="image/avif" />
+                <source srcset="img/rating-14.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-14.png"
+                  class="image"
+                  width="269"
+                  height="92"
+                  alt="Диван велюровый “U-58”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “U-58”</a>
+              </h3>
+              <p class="card__price catalog__price">21 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-15.avif" type="image/avif" />
+                <source srcset="img/rating-15.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-15.png"
+                  class="image"
+                  width="263"
+                  height="106"
+                  alt="Диван флоковый “F-41”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван флоковый “F-41”</a>
+              </h3>
+              <p class="card__price catalog__price">17 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-16.avif" type="image/avif" />
+                <source srcset="img/rating-16.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-16.png"
+                  class="image"
+                  width="251"
+                  height="105"
+                  alt="Диван велюровый “R-85”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “R-85”</a>
+              </h3>
+              <p class="card__price catalog__price">34 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-17.avif" type="image/avif" />
+                <source srcset="img/rating-17.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-17.png"
+                  class="image"
+                  width="272"
+                  height="105"
+                  alt="Диван велюровый “S-44”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван велюровый “S-44”</a>
+              </h3>
+              <p class="card__price catalog__price">19 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+            <article class="card catalog__card">
+              <div class="card__rating">4,5</div>
+              <picture class="card__pic catalog__pic">
+                <source srcset="img/rating-18.avif" type="image/avif" />
+                <source srcset="img/rating-18.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="img/rating-18.png"
+                  class="image"
+                  width="227"
+                  height="130"
+                  alt="Диван из шинила “С-80”"
+                />
+              </picture>
+              <h3 class="card__title catalog__subtitle">
+                <a href="#" class="card__link">Диван из шинила “С-80”</a>
+              </h3>
+              <p class="card__price catalog__price">20 990 руб</p>
+              <button class="btn-reset btn btn--stroke card__btn">
+                Купить
+              </button>
+            </article>
+          </div>
+        </div>
+        <ul class="tabs__nav">
+          <li class="tabs__nav-item">
+            <button
+              class="tabs__nav-btn catalog-tabs__nav-btn btn-reset"
+              type="button"
+            >
+              1
+            </button>
+          </li>
+          <li class="tabs__nav-item">
+            <button
+              class="tabs__nav-btn catalog-tabs__nav-btn btn-reset"
+              type="button"
+            >
+              2
+            </button>
+          </li>
+          <li class="tabs__nav-item tabs__nav-item_mobile">
+            <button
+              class="tabs__nav-btn catalog-tabs__nav-btn btn-reset"
+              type="button"
+            >
+              3
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

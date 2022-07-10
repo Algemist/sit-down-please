@@ -1,0 +1,221 @@
+<header class="header">
+  <div class="header__mobile header-mobile">
+    <div class="header__container header-mobile__container">
+      <a href="/" class="logo-link header-mobile__logo" aria-label="Логотип компании Sit down please">
+        <img
+          loading="lazy"
+          src="img/logo.svg"
+          class="image"
+          width="187"
+          height="27"
+          alt="Логотип"
+        />
+      </a>
+    </div>
+  </div>
+  <div class="header__top header-top">
+    <div class="container header__container header-top__container">
+      <label class="region" aria-label="Выбор города">
+        <span class="region__value">Ваш регион:</span>
+        <select name="region" id="region-select" class="region__select">
+          <option value="Moscow">Москва</option>
+          <option value="Kazan">Казань</option>
+          <option value="Ufa">Уфа</option>
+          <option value="Perm">Пермь</option>
+        </select>
+        <span class="region__select-icon">
+          <svg class="select-icon">
+            <use xlink:href="img/sprite.svg#select-stroke"></use>
+          </svg>
+        </span>
+      </label>
+      <a href="tel:+74958854547" class="phone bg-focus" aria-label="Телефон компании +74958854547">
+        <svg class="phone__icon">
+          <use xlink:href="img/sprite.svg#phone"></use>
+        </svg>
+        <span class="phone__value">+7 (495) 885-45-47</span>
+      </a>
+      <nav class="nav header-top__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item nav__add-item">
+            <a href="#" class="nav__add-link link link-primary bg-focus">О компании</a>
+          </li>
+          <li class="nav__item nav__add-item">
+            <a href="#" class="nav__add-link link link-primary bg-focus"
+              >Гарантия и возврат</a
+            >
+          </li>
+          <li class="nav__item nav__add-item">
+            <a href="/cooperation.html" class="nav__add-link link link-primary bg-focus">
+              Корпоративным клиентам
+            </a>
+          </li>
+          <li class="nav__item nav__add-item">
+            <a href="#" class="nav__add-link link link-primary bg-focus"
+              >Дизайн-решение</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="header__tablet-section tablet-section">
+    <div class="container tablet-section__container">
+      <nav class="nav tablet-section__nav">
+        <ul class="nav__list list-reset tablet-section__list">
+          <li class="nav__item nav__add-item">
+            <a href="#" class="nav__add-link link link-primary bg-focus">О компании</a>
+          </li>
+          <li class="nav__item nav__add-item">
+            <a href="#" class="nav__add-link link link-primary bg-focus"
+              >Гарантия и возврат</a
+            >
+          </li>
+          <li class="nav__item nav__add-item">
+            <a href="/cooperation.html" class="nav__add-link link link-primary bg-focus">
+              Корпоративным клиентам
+            </a>
+          </li>
+          <li class="nav__item nav__add-item">
+            <a href="#" class="nav__add-link link link-primary bg-focus"
+              >Дизайн-решение</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-reset user bg-focus header__btn tablet-section__btn" aria-label="Личный кабинет">
+        <svg class="user-icon header__btn-icon">
+          <use xlink:href="img/sprite.svg#user"></use>
+        </svg>
+      </button>
+      <button class="btn-reset cart bg-focus header__btn tablet-section__btn" aria-label="Корзина товаров">
+        <span class="cart__value">0</span>
+        <svg class="cart-icon header__btn-icon">
+          <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="header-mid">
+    <nav class="burger-container" data-menu>
+       <div class="burger-container__top">
+        <ul class="list-reset burger-container__list">
+          <li class="burger-container__item"><a href="/catalog.html" class="burger-container__link link link-secondary bg-focus">Каталог</a></li>
+          <li class="burger-container__item"><a href="#" class="burger-container__link link link-secondary bg-focus">Доставка и оплата</a></li>
+          <li class="burger-container__item"><a href="#" class="burger-container__link link link-secondary bg-focus">Магазины</a></li>
+          <li class="burger-container__item"><a href="#" class="burger-container__link link link-secondary bg-focus">Дисконт</a></li>
+          <li class="burger-container__item"><a href="#" class="burger-container__link link link-secondary bg-focus">Шоу-рум</a></li>
+          <li class="burger-container__item"><a href="/contacts.html" class="burger-container__link link link-secondary bg-focus">Контакты</a></li>
+        </ul>
+       </div>
+       <div class="burger-container__btm">
+        <ul class="list-reset burger-container__list-mobile">
+          <li class="burger-container__item burger-container__item_mobile"><a href="#" class="burger-container__link burger-container__link_mobile link link-primary bg-focus">О компании</a></li>
+          <li class="burger-container__item burger-container__item_mobile"><a href="#" class="burger-container__link burger-container__link_mobile link link-primary bg-focus">Гарантия и возврат</a></li>
+          <li class="burger-container__item burger-container__item_mobile"><a href="/cooperation.html" class="burger-container__link burger-container__link_mobile link link-primary bg-focus">Корпоративным клиентам</a></li>
+          <li class="burger-container__item burger-container__item_mobile"><a href="#" class="burger-container__link burger-container__link_mobile link link-primary bg-focus">Дизайн-решение</a></li>
+        </ul>
+       </div>
+  </nav>
+    <div class="container header__container header-mid__container">
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
+      <a href="/" class="logo-link" aria-label="Логотип компании Sit down please">
+        <img
+          loading="lazy"
+          src="img/logo.svg"
+          class="image"
+          width="187"
+          height="27"
+          alt="Логотип"
+        />
+      </a>
+      <nav class="nav header-mid__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item nav__main-item">
+            <a href="/catalog.html" class="nav__main-link link link-secondary bg-focus">Каталог</a>
+          </li>
+          <li class="nav__item nav__main-item">
+            <a href="#" class="nav__main-link link link-secondary bg-focus">Магазины</a>
+          </li>
+          <li class="nav__item nav__main-item">
+            <a href="#" class="nav__main-link link link-secondary bg-focus">Шоу-рум</a>
+          </li>
+          <li class="nav__item nav__main-item">
+            <a href="#" class="nav__main-link link link-secondary bg-focus">Доставка и оплата</a>
+          </li>
+          <li class="nav__item nav__main-item">
+            <a href="#" class="nav__main-link link link-secondary bg-focus">Дисконт</a>
+          </li>
+          <li class="nav__item nav__main-item">
+            <a href="/contacts.html" class="nav__main-link link link-secondary bg-focus">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-reset user bg-focus header__btn header-mid__btn" aria-label="Личный кабинет">
+        <svg class="user-icon header__btn-icon">
+          <use xlink:href="img/sprite.svg#user"></use>
+        </svg>
+      </button>
+      <button class="btn-reset cart bg-focus header__btn header-mid__btn" aria-label="Корзина товаров">
+        <span class="cart__value">0</span>
+        <svg class="cart-icon header__btn-icon">
+          <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="background-white form-section">
+    <div class="container header__container">
+      <form action="#" class="header__form header-form">
+        <div class="header-form__label">
+          <svg class="search">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+          <input
+            type="text"
+            name="product"
+            class="input-reset input input--header"
+            placeholder="Я хочу купить..."
+          />
+          <button class="btn-reset header-form__btn" aria-label="Начать поиск" type="submit">
+            <svg class="icon-btn header-form__btn-icon">
+              <use xlink:href="img/sprite.svg#btn-arrow"></use>
+            </svg>
+          </button>
+        </div>
+       <div class="select-container">
+        <select name="goods" id="goods-select" class="goods-select">
+          <option value="">Категория</option>
+          <option value="Sofas">Диваны</option>
+          <option value="armchairs">Кресла</option>
+          <option value="Puffs">Пуфы</option>
+          <option value="Beds">Кровати</option>
+          <option value="Cabinets">Тумбы</option>
+          <option value="Dressers">Комоды</option>
+          <option value="Chairs">Стулья</option>
+          <option value="Tables">Столы</option>
+          <option value="Accessories">Аксессуары</option>
+        </select>
+        <span class="header-form__select-icon">
+          <svg class="select-icon">
+            <use xlink:href="img/sprite.svg#select-stroke"></use>
+          </svg>
+        </span>
+       </div>
+      </form>
+      <button class="btn-reset user bg-focus header__btn form-section__btn" aria-label="Личный кабинет">
+        <svg class="user-icon header__btn-icon">
+          <use xlink:href="img/sprite.svg#user"></use>
+        </svg>
+      </button>
+      <button class="btn-reset cart bg-focus header__btn form-section__btn" aria-label="Корзина товаров">
+        <span class="cart__value">0</span>
+        <svg class="cart-icon header__btn-icon">
+          <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

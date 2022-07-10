@@ -1,0 +1,32 @@
+.nav {
+  &__list {
+    @include flex;
+  }
+
+  &__main-item {
+    @include mr(92px);
+    @media (max-width: 1220px) {
+      @include mr(42px);
+    }
+  }
+
+  &__main-link {
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--black);
+  }
+
+  &__add-item {
+    @include mr(64px);
+
+    @include small-tablet {
+      @include mr(35px);
+    }
+  }
+
+  &__add-link {
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--grey);
+  }
+}

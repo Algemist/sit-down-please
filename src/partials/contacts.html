@@ -1,0 +1,32 @@
+<section class="contacts">
+  <div class="container contacts__container">
+    <div class="container-second">
+      <h2 class="title contacts__title">Мы всегда вам рады!</h2>
+    <p class="contacts__text">Безусловно, новая модель организационной деятельности в&nbsp;значительной степени обусловливает важность распределения внутренних резервов и&nbsp;ресурсов.
+      <span class="tooltip">
+        <button class="btn-reset tooltip__btn" aria-describedby="tooltip-txt" id="tooltip-btn">
+          <svg class="tooltip__icon">
+            <use xlink:href="img/sprite.svg#tooltip"></use>
+          </svg>
+        </button>
+        <span class="tooltip__txt" role="tooltip" id="tooltip-txt">
+          <span class="visually-hidden">Тултип: 1</span>
+          Реплицированные с зарубежных источников, исследования формируют глобальную сеть.
+          <span class="tooltip__arrow" id="arrow" data-popper-arrow></span>
+        </span>
+      </span>
+    </p>
+    <form action="#" class="contacts__form form">
+      <input type="text" class="input-reset input input--contacts input_name" required placeholder="Как вас зовут?" name="name" id="name">
+      <input type="tel" class="input-reset input input--contacts input_phone" required placeholder="Ваш телефон" name="phone" id="phone">
+      <input type="text" class="input-reset input input--contacts input_email" required placeholder="Ваш e-mail" name="email" id="email">
+      <button class="btn-reset btn btn--fill contacts__btn form__btn" type="submit">Отправить</button>
+      <label class="contacts__label  custom-checkbox">
+        <input type="checkbox" class="input-reset custom-checkbox__input" required id="checkbox">
+        <span class="custom-checkbox__icon"></span>
+        Принимаю <a href="#" class="custom-checkbox__link" aria-label="Файл с пользовательским соглашением">пользовательское соглашение</a>
+      </label>
+    </form>
+    </div>
+  </div>
+</section>

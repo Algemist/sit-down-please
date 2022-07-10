@@ -1,0 +1,105 @@
+.custom-range {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  margin-bottom: 36px;
+
+  @media (max-width: 1320px) {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+
+  &__label {
+    @include flex;
+    align-items: center;
+    grid-column: 1 span;
+
+    &:nth-child(2) {
+      justify-self: flex-end;
+    }
+  }
+
+  &__line {
+    grid-column: 2 span;
+  }
+
+  &__value {
+    margin-right: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--grey-shade);
+  }
+
+  &__digit {
+    width: 86px;
+    height: 30px;
+    padding-left: 13px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--grey-shade);
+    background-color: transparent;
+    outline: none;
+    border: 1px solid var(--grey);
+    border-radius: 2px;
+  }
+}
+
+.noUi-target {
+  top: -1px;
+  height: 3px;
+  border: none;
+  border-radius: 3px;
+  background: var(--md-grey);
+  box-shadow: none;
+}
+
+.noUi-connect {
+  background: var(--primary);
+  transition: background-color .3s ease-in-out;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border: none;
+  border-left: 7.5px solid transparent;
+  border-right: 7.5px solid transparent;
+  border-bottom: 13px solid var(--primary);
+  border-radius: 0 0 30% 30%;
+  outline: none;
+  box-shadow: none;
+  transition: border-color .3s ease-in-out;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    content: none;
+  }
+
+  &:hover:not(:focus-visible) {
+    border-bottom: 13px solid var(--primary-light);
+  }
+
+  &:active:not(:focus-visible),
+  &:focus-visible {
+    border-bottom: 13px solid var(--primary-shade);
+  }
+}
+
+.noUi-state-drag {
+  .noUi-connect {
+    background: var(--primary-shade);
+    transition: background-color .3s ease-in-out;
+  }
+}
+
+.noUi-horizontal .noUi-handle {
+  top: 1px;
+  right: -8px;
+}
